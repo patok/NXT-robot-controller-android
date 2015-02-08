@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/onButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="@string/onLabel" />
+
+        <Button
+            android:id="@+id/offButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="@string/resetLabel" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/upButton"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.33"
+        android:gravity="center_vertical"
+        android:text="@string/upLabel" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.33"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/leftButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.33"
+            android:text="@string/leftLabel" />
+
+        <Button
+            android:id="@+id/fireButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.33"
+            android:text="@string/fireLabel" />
+
+        <Button
+            android:id="@+id/rightButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.33"
+            android:text="@string/rightLabel" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/downButton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.33"
+        android:text="@string/downLabel" />
+
+</LinearLayout>

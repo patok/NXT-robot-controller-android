@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NXTShotRollerController</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="onLabel">ON</string>
+    <string name="resetLabel">OFF</string>
+    <string name="upLabel">UP ^</string>
+    <string name="leftLabel">&lt; LEFT</string>
+    <string name="fireLabel">* FIRE *</string>
+    <string name="rightLabel">RIGHT ></string>
+    <string name="downLabel">DOWN V</string>
+
+</resources>
